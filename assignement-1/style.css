@@ -1,48 +1,116 @@
-.first-main{
-    /* height: 200px; */
+.main{
+    height: 1000px;
     width: 100%;
     border: 2px solid red;
-    /* display: flex; */
-    align-items: center;
-    justify-content: space-evenly;
-}
-.inner-main{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 200px;
-    /* border: 1px solid red; */
-    width: 100%;
-}
-.inner-1{
-    width: 250px;
-    height: 100px;
-    border: 1px solid blue;
-}
-.inner-2{
-    width: 250px;
-    height: 100px;
-    border: 1px solid orange;
+    background-color: papayawhip;
 }
 
-.second-main{
-    width: 100%;
+.first{
     height: 200px;
-    border: 2px solid red;
+    width: 100%;
+    /* background-color: red; */
     display: flex;
-    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.first-1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(143, 143, 206);
+    color: white;
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 320px;
-    margin-top: 10px;
+    border-radius: 10px;
+    
 }
-.third-main{
+
+.first-2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(5, 73, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.first-1 h3{
+    font-size: 20px;
+    text-align: center;
+}
+.first-2 h3{
+    text-align: center;
+    padding: 20px;
+}
+
+/* First section styling end here  */
+
+.second{
+    height: 300px;
+    width: 800px;
+    position: relative;
+    left: 210px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: #1F1A17;
+    color: white;
+}
+.second h1{
+    color: white;
+}
+.second h1 span{
+    color: #E57914;
+}
+.second h5{
+    font-size: 20px;
+}
+.second a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+/* second section styling end here */
+
+.third{
     position: relative;
     height: 300px;
-    width: 90%;
-    border: 2px solid red;
-    margin-top: 80px;
-    left: 65px;
-    margin-bottom: 50px;
-
+    width: 65rem;
+    margin-top: 10px;
+    left: 6rem;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
 }
+h1{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+.third-boxes{
+    height: 200px;
+    width: 250px;
+    background-color: yellow;
+    position: relative;
+    text-align: center;
+}
+.third-boxes h1{
+    color: #532b06;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
